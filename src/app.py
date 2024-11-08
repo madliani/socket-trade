@@ -3,15 +3,16 @@
 import logging
 import sys
 import traceback
+from typing import Self
 
 from const.exit_status import ExitStatus
 
 
 class App:
-    def __init__(self):
+    def __init__(self: Self) -> None:
         pass
 
-    def run(self):
+    def run(self: Self) -> None:
         pass
 
 
